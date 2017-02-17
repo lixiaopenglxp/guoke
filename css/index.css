@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 微软雅黑;
+}
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+header {
+  background: #d70302;
+  width: 16rem;
+  height: 2.2rem;
+  display: flex;
+  justify-content: space-between;
+  -align-items: center;
+}
+header h1 {
+  width: 5.5rem;
+  height: 1.5rem;
+  margin-left: 0.75rem;
+  margin-top: 0.25rem;
+}
+header h1 .logo {
+  display: block;
+  width: 5.5rem;
+  height: 1.5rem;
+  background: url(../img/logo.png) no-repeat;
+  background-size: 5.5rem 1.5rem;
+  text-indent: -9999em;
+}
+header .be_momal {
+  font-size: 0.75rem;
+  margin-top: 0.6rem;
+  margin-right: 1.5rem;
+  color: #fff;
+}
+nav {
+  display: flex;
+  border-top: 2px;
+  height: 1.7rem;
+  align-items: center;
+  border-top: 0.1rem solid #ccc;
+}
+nav li {
+  flex: 1;
+  font-size: 0.75rem;
+  width: 3rem;
+  height: 1.2rem;
+  text-align: center;
+  line-height: 1.2rem;
+  border: 0.1rem solid #fff;
+}
+nav li a {
+  color: #000;
+}
+nav li:hover {
+  display: block;
+  width: 3rem;
+  height: 1.2rem;
+  color: red;
+  border: 0.1rem solid red;
+}
+nav li:hover a {
+  color: red;
+}
+.bbanner {
+  position: relative;
+  width: 16rem;
+  height: 8rem;
+  border-bottom: 0.3rem solid #ccc;
+}
+.bbanner ul {
+  width: 16rem;
+  height: 8rem;
+  position: absolute;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+.bbanner ul li {
+  float: left;
+}
+.bbanner ul li img {
+  width: 16rem;
+  height: 8rem;
+  display: block;
+}
+.bbanner ol {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0;
+}
+.bbanner ol li {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: red;
+  margin-right: 0.5rem;
+  float: left;
+}
+.mews {
+  width: 16rem;
+}
+.mews .bordernone {
+  border-bottom: none;
+}
+.mews ul {
+  padding: 0;
+}
+.mews ul li {
+  border-bottom: 0.1rem solid #ccc;
+  padding: 0.7rem 0.55rem 0.6rem 0.55rem;
+}
+.mews ul li h3 {
+  -font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+.mews ul li h3 a {
+  color: #2d2d2d;
+}
+.mews ul li h3 a:hover {
+  color: red;
+}
+.mews ul li .newsword {
+  overflow: hidden;
+}
+.mews ul li .newsword span {
+  color: #aaaaaa;
+  font-size: 0.3rem;
+}
+.mews ul li .newsword .bleft {
+  float: left;
+}
+.mews ul li .newsword .bleft .name {
+  margin-right: 0.5rem;
+  padding-right: 0.5rem;
+  border-right: 0.1rem solid #aaa;
+}
+.mews ul li .newsword .bright {
+  float: right;
+}
+.mews ul li .newsword .bright span {
+  float: left;
+  margin-top: 0.7rem;
+}
+.mews ul li .newsword .bright a {
+  margin-top: 0.6rem;
+  float: left;
+  width: 0.85rem;
+  height: 0.85rem;
+  background: url(../img/icon.png) no-repeat;
+  background-size: 0.85rem 0.85rem;
+  margin-left: 0.5rem;
+}
+.newspic {
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+  display: flex;
+}
+.newspic div {
+  flex: 1;
+}
+.newspic img {
+  width: 6rem;
+  height: 4.5rem;
+  padding: 0.5rem;
+}
+.newspic p {
+  color: #aaaaaa;
+  font-size: 0.6rem;
+  line-height: 1rem;
+  width: 7rem;
+}
+.nextpage {
+  height: 2rem;
+  border-bottom: 0.1rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.nextpage a {
+  font-size: 0.75rem;
+  color: #000;
+}
+footer {
+  width: 16rem;
+  height: 4rem;
+  background: #eee;
+  padding-bottom: 0.5rem;
+}
+footer p {
+  font-size: 0.3rem;
+  color: #aaa;
+  text-align: center;
+}
+footer ul {
+  width: 16rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+}
+footer ul .midd {
+  border-right: 1px solid #999;
+  border-left: 1px solid #999;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+}
+footer ul li a {
+  color: #999;
+}
