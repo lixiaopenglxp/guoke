@@ -1,14 +1,14 @@
 const gulp=require('gulp');
-const less=require('gulp-less');
+const sass=require('gulp-sass');
 
-gulp.task('less',function(){
-	gulp.src('less/*.less')
-  	.pipe(less())
+gulp.task('sass',function(){
+	gulp.src('sass/*.{sass,scss}')
+  	.pipe(sass().on('error',function(){}))
   	.pipe(gulp.dest('css'))
 });
 
 gulp.task('watch', function(){
-  gulp.watch('less/*.less', ['less']);
+  gulp.watch('sass/*.{sass,scss}', ['sass']);
 });
 
-gulp.task('default', ['watch','less']);
+gulp.task('default', ['watch','sass']);

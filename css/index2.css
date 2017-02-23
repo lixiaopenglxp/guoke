@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #45494c; }
+
+i {
+  font-style: normal; }
+
+li {
+  list-style: none; }
+
+html, body {
+  height: 100%; }
+
+#box {
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+  #box header {
+    color: #fff;
+    width: 16rem;
+    height: 2.2rem;
+    background: #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1rem solid #4bccae; }
+  #box section {
+    flex: 1; }
+  #box footer {
+    border-top: 0.1rem solid #4bccae;
+    height: 3.7rem;
+    background: #262626;
+    display: flex;
+    align-items: center; }
