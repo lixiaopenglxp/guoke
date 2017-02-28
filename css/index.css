@@ -93,7 +93,7 @@ header {
 .slider-box {
         width:16rem;
         height:11.4rem;
-        -overflow:hidden;
+        overflow:hidden;
 }
 .slider-box .slider-content {
   width:90rem;
