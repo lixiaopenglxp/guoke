@@ -1,145 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="aaa">
 <head>
-    <meta charset="UTF-8">
-    <title>智能社——http://www.zhinengshe.com</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta charset="UTF-8">
+	<title>GuoKr-Mobile</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/swiper.css">
-    <link rel="stylesheet" href="css/swiper.min.css">
-    <style >
-
-    </style>
+   
 </head>
 <body>
-    <div id="box">
-           <header>
-               <a href="javascript:;" class="menu">logo</a>
-               <h1>Guokr.com</h1>
-               <a href="javascript:;" class="pc">pc</a>
-            </header>
-            <section>
-                <div class="user">
-                    <div class="user_left"><span class="bg1"></span><a href="javascript:;" >用户登录</a></div>
-                    <div class="user_right"><span class="bg2"></span><a href="javascript:;" >用户注册</a></div>
-                </div>
-                <div class="swiper-container banner">
-                     <ul class="swiper-wrapper">
-                        <li class="swiper-slide"><a href="javascript:;"><img src="img/1.jpg"><h4>到底什么是最美的科学公式？</h4></a></li>
-                        <li class="swiper-slide"><a href="javascript:;"><img src="img/2.jpg"><h4>你最美</h4></a></li>
-                        <li class="swiper-slide"><a href="javascript:;"><img src="img/3.jpg"><h4>谁是最可爱的人哪</h4></a></li>
-                        <li class="swiper-slide"><a href="javascript:;"><img src="img/4.jpg"><h4>世界那么大</h4></a></li>
-                        <li class="swiper-slide"><a href="javascript:;"><img src="img/5.jpg"><h4>最美丽的青年</h4></a></li>
-                     </ul>
-                </div>           
-                <div class="news1">
-                     <ul id="ul">
-                           <!-- <li><a href="javascript:;">111111111111111111sssssssssssssssssssssssssssssssssssss</a></li>
-                           <li><a href="javascript:;">111111111111111112222222222222222222222222222222221</a></li>
-                           <li><a href="javascript:;">111111111111111111</a></li>
-                           <li><a href="javascript:;">111111111111111111</a></li>
-                           <li><a href="javascript:;">111111111111111111</a></li>
-                           <li><a href="javascript:;">111111111111111111</a></li>
-                           <li class="last_border"><a href="javascript:;">111111111111111111</a></li> -->                         
-                    </ul>
-                </div>
-                <div class="hotques">
-                    <h2>热门问答</h2>
-                    <a href="javascript:;"></a>
-                </div>
-                <div class="news2">
-                      <nav>
-                         <ul class="news2_title">
-                             <li><a class="activa" href="javascript:;">科技</a></li>
-                             <li><a href="javascript:;">生活</a></li>
-                             <li><a href="javascript:;">人文</a></li>
-                             <li><a href="javascript:;">自然</a></li>
-                         </ul>
-                      </nav>
-                      <div class="new2box">
-                           <div class="new2inbox">
-                               <ul id="technology" class="new2_contect">
-                                  <li class="first-news">
-                                      <dt><a href="javascript:;">哈哈哈哈哈</a></dt>
-                                      <dd><a href="javascript:;"><img src="img/news.png"/></a><a class="word" href="javascript:;">nnnnnnn时间的两块哈史丹块哈史丹块哈史丹块哈史丹块哈史丹块哈史丹块哈史丹块哈史丹块哈史丹利；父级；阿什利的解放路；啊见识到了；发哈斯勒；点击发送；的发是空；的分开了；阿萨德发货nnnnnnn</a></dd>
-                                  </li>
-                                  <li class="nomal_news"><a href="javascript:;">时间的两块哈史丹块哈史丹块哈史丹块哈史丹块哈史</a></li>
-                                  <li class="nomal_news"><a href="javascript:;">时间的两块哈史丹块哈史丹块哈史丹块哈史丹块哈史</a></li>
-                                  <li class="nomal_news"><a href="javascript:;">时间的两块哈史丹块哈史丹块哈史丹块哈史丹块哈史</a></li>
-                                  <li class="nomal_news border-none"><a href="javascript:;">时间的两块哈史丹块哈史丹块哈史丹块哈史丹块哈史</a></li>
+	<header>
+		<div class="header-info">
+			<a href="javascript:;" class="menu">菜单</a>
+			<h1 class="logo">GuoKr.com</h1>
+			<a class="toggle-pc" href="javascript:;">PC</a>
+		</div>
+		<div class="header-nav">
+			<a class="user-lgn" href="javascript:;">用户登录</a>
+			<span class="line"></span>
+			<a class="user-reg" href="javascript:;">用户注册</a>
+		</div>
+	</header>
 
-                              </ul>
-                              <ul id="life"></ul>
-                              <ul id="humanity"></ul>
-                              <ul id="natural"></ul>
-                           </div>
-                      </div>
-                </div>
-                <div class="backtop">
-                     <span class="bg-top"></span><a href="javascript:;">回到顶部</a>
-                </div>
-            </section>
-            
-            <footer class="footer">
-                    <div class="user_left"><span class="bg1"></span><a href="javascript:;" >用户登录</a></div>
-                    <div class="user_right"><span class="bg2"></span><a href="javascript:;" >用户注册</a></div>
-        </footer>
-    </div>
+	<!-- slider start -->
+	<section>
+		<div class="slider-box swiper-container">
+			<ul class="slider-content swiper-wrapper">
+				<li class="swiper-slide">
+					<img src="image/1.jpg" alt="">
+					<span>紫禁城的石头是如何运进去的?</span>
+				</li>
+				<li class="swiper-slide">
+					<img src="image/2.jpg" alt="">
+					<span>你最美</span>
+				</li>
+				<li class="swiper-slide">
+					<img src="image/3.jpg" alt="">
+					<span>谁是最可爱的人哪</span>
+				</li>
+				<li class="swiper-slide">
+					<img src="image/4.jpg" alt="">
+					<span>世界那么大</span>
+				</li>
+				<li class="swiper-slide">
+					<img src="image/5.jpg" alt="">
+					<span>最美丽的青年</span>
+				</li>
+
+			</ul>
+		</div>
+	</section>
+	<!-- slider end -->
+
+	<!-- listview start -->
+	<section>
+		<div class="listview">
+			<ul ng-controller="show">
+				<li ng-repeat="x in arr">
+					<a href="javascript:;">{{x.content}}</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!-- listview end -->
+
+	<!-- list-tab start -->
+	<section>
+		<div class="list-tab" ng-controller="show2">
+			<div class="list-tab-title">
+				<h3>热门回答</h3>
+				<a class="more" href="javascript:;">更多</a>
+			</div>
+			<ul id="nav" class="list-tab-nav clearfix">
+				<li ng-click="fnclick()" class="active">科技</li>
+				<li ng-click="fnclick()">生活</li>
+				<li ng-click="fnclick()">人文</li>
+				<li ng-click="fnclick()">自然</li>
+			</ul>
+			<div class="listview">
+				<ul>
+					<li class="listview-hot">
+						<h3><a href="javascript:;">{{arr2.content}}</a></h3>
+						<div class="listview-hot-c">
+							<img ng-src="{{arr2.url}}" alt="图片一">
+							<p><a href="javascript:;">{{arr2.content}}</a></p>
+						</div>
+					</li>
+					<li ng-repeat="x in arr3">
+						<a href="javascript:;">{{x.content}}</a>
+					</li>
+				
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- list-tab end -->
+
+	<!-- list-tab start -->
+	<section>
+		<div class="list-tab" ng-controller="show3">
+			<div class="list-tab-title">
+				<h3>热门回答</h3>
+				<a class="more" href="javascript:;">更多</a>
+			</div>
+			<ul id="nav2"  class="list-tab-nav clearfix">
+				<li ng-click="fnclick3()" class="active">科技</li>
+				<li ng-click="fnclick3()">生活</li>
+				<li ng-click="fnclick3()">人文</li>
+				<li ng-click="fnclick3()">自然</li>
+			</ul>
+			<div class="listview">
+				<ul>
+				    <li class="listview-hot">
+						<h3><a href="javascript:;">{{arr2.content}}</a></h3>
+						<div class="listview-hot-c">
+							<img ng-src="{{arr2.url}}" alt="图片一">
+							<p>{{arr2.content}}</p>
+						</div>
+					</li>
+					<li ng-repeat="x in arr3">
+						<a href="javascript:;">{{x.content}}</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- list-tab end -->
+	
+	<!-- backToTop start -->
+	<section>
+		<div class="back-to-top">
+			<a class="back" href="#">回到顶部</a>
+		</div>
+	</section>
+	<!-- backToTop end -->
+
+	<footer>
+		<div class="footer">
+			<a class="pc" href="javascript:;">PC版</a>
+			<span class="line">line</span>
+			<a class="mobile" href="javascript:;">移动应用</a>
+		</div>
+	</footer>
 </body>
     <script src="js/swiper.min.js"></script>
     <script src="js/swiper.js"></script>
     <script src="js/zepoto.min.js"></script>
-   <script>
-         // 弹性
-          document.documentElement.style.fontSize=20*document.documentElement.clientWidth/320+'px';
-          window.onresize=function(){
-            document.documentElement.style.fontSize=20*document.documentElement.clientWidth/320+'px';
-          }
-          //banner 图
-           var mySwiper = new Swiper('.swiper-container', {
-                autoplay: 1000,//可选选项，自动滑动
-            })
-          // mews1
-         $(function(){
-          //请求数据
-            $.ajax({
-              url:'https://bird.ioliu.cn/joke/rand?type=text',
-              success:function(str){               
-                var arr=str.data
-                arr=arr.slice(0,7)
-                 $.each(arr,function(index,item){   
-                  var oLi= $('<li><a href="javascript:;">'+item.content+'</a></li>');
-                   $(oLi).appendTo('.news1 ul')
-                 })  
-              }
-             }) //ajax end   
-  
-             // $('ul li').last().css('border-bottom','0')
-             // $('ul li').last().addClass('background-color','last_border')
-             // //alert($('ul').css('height'))
-         })
+    <script src="js/angular.js"></script>
+	<script src=js/v.js> </script>
+	 <script src="js/m.js"></script>
 
-    </script>
-    
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
